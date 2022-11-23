@@ -37,6 +37,7 @@ a {
     display: flex;
     list-style: none;
     gap: 0.5rem;
+    background-color: #640404;
 }
 #btn-mobile {
     display: none;
@@ -56,7 +57,7 @@ a {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #e7e7e7;
+        background: #640404;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -198,7 +199,7 @@ a {
     }
     .txt2:hover {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-        color: #5793ef;
+        color: #ef5757;
         transition: all 0.5s ease 0s;
     }
 }
@@ -389,3 +390,7 @@ a {
 .embed-container .col-sm {
 margin-top: 10px;
 }
+ .linkMenu {
+    color: black;
+    font-family: inherit;
+ }
