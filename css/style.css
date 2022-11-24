@@ -51,6 +51,14 @@ a {
     height: 800px;
 }
 @media (max-width: 600px) {
+    #carouselExampleInterval {
+        position: relative;
+        z-index: 10;
+        gap: 0.5rem;
+    }
+    #carouselExampleInterval img {
+        height: 800px;
+    }
     #menu {
         display: block;
         position: absolute;
